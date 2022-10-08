@@ -1,5 +1,5 @@
 // video: https://youtu.be/ZWRT4mDb8O0
-// small changes by niq_ro
+// small changes by niq_ro (solved display issue on hour 0)
 
 #include <NTPClient.h>
 #include <ESP8266WiFi.h>
@@ -44,7 +44,9 @@ void loop() {
   
   A = timeClient.getHours() * 100 + timeClient.getMinutes();
   B = timeClient.getSeconds();
-  
+
+  if (A >= 100)
+  {
   if((B % 2) == 0)
   {
     display.showNumberDecEx(A, 0b01000000 , false, 4, 0); 
@@ -53,5 +55,17 @@ void loop() {
   {
     display.showNumberDecEx(A, 0b00000000 , false, 4, 0); 
   }
+  }
+  else
+   {
+  if((B % 2) == 0)
+  {
+    display.showNumberDecEx(A, 0b10000000 , true, 3, 1); 
+  }
+  else
+  {
+    display.showNumberDecEx(A, 0b00000000 , true, 3, 1); 
+  }
+  } 
   
 }

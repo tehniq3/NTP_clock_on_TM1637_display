@@ -11,8 +11,8 @@
 
 TM1637Display display = TM1637Display(CLK, DIO);              // Create display object of type TM1637Display:
 
-const char *ssid     = "bbk2";
-const char *password = "internet2";
+const char *ssid     = "niq_ro";
+const char *password = "berelaburtica";
 
 const long utcOffsetInSeconds = 3*3600; //19802;  
 

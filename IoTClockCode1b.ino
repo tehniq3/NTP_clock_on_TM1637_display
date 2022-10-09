@@ -60,7 +60,7 @@ void loop() {
   A = H * 100 + timeClient.getMinutes();
   B = timeClient.getSeconds();
 
-  if (pm = 0)
+  if (pm == 0)
   {
   if((B % 2) == 0)
   {

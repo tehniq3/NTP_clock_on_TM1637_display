@@ -10,4 +10,5 @@ sketch for 12-hour format: https://github.com/tehniq3/NTP_clock_on_TM1637_displa
 ![galben](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2Q1b2gyRXUEmCZjEICY-T3CLC9izl3qOoP3_JE8r4vYLiL4uEKStPJjSdbwDP_TiPZzq0hGgYp2JOqkd02850qpkINuccoCzsyzvRtLh1405VRSNWCJPR5dhOZ1KKsQD11n0Rj7yirzi8bV6oDLh8A6kpQyrcccnymzXK3o9OuOxOPgwbB6JFT7m_hw/w200-h150/TM1637_06.jpg)
 ![alb](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRmfJ_mJEeY6H_QVtXESX-vegdeywY3gV0ZOrlnMfVncW5ziMbjHSAKacWzfV0WyYCK2eEAuL7aqCsQVQs1oXMN4VhGGJs95_uxthkVAS5voqPnBOef-ClFZocaXD4AsY16fC25V2dD8bUUrUA18MAklgS5fcB9_C196wV9sD4CVcpAfIWbfVvfdMqHQ/w200-h150/TM1637_07.jpg)
 
+![webcontrol](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicMxwoEOVYKlz0EYNeGAlGqOOQVkLwDae1waAGi6SKVjXXTJjkYNwfDSMF32eMwvblrFkk-o7JQ71Vbg-PYpJ13j8xtwG8Dzhus75Za-ZfNx1DJqdpBQZWWvk0O8uP17K5Rb-tP8AMnLRIeV0FfiJJmQ17NN0IDl9SthRASY6JegL0rEv3O9jnkJ3msQ/w150-h200/ora_auto_0.jpg)
 

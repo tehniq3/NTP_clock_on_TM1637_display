@@ -25,8 +25,8 @@
 #include <WiFiManager.h>  //https://github.com/tzapu/WiFiManager                                                                                                              
 #include <TM1637Display.h>     // library from https://github.com/avishorp/TM1637
 
-#define CLK D6                       // Define the connections pins:
-#define DIO D5
+#define CLK 12 // GPIO12 = D6                       // Define the connections pins:
+#define DIO 14 // GPIOc14 = D5
 // Definitions using https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/ 
 
 TM1637Display display = TM1637Display(CLK, DIO);              // Create display object of type TM1637Display:

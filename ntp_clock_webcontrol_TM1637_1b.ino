@@ -543,6 +543,7 @@ if ((ora == 0) and (minut == 0))  // read day, mounth and year every hour
 if (citire3 == 0)
 {
 iaData();
+Soare();
 citire3 = 1;
 }
 }
@@ -593,7 +594,7 @@ Serial.println(diferenta[timezone0]);
 Serial.print("DST: ");
 Serial.println(DST);
 Serial.println("==============");
-
+Soare();
 }
 DST0 = DST;
 
@@ -621,6 +622,7 @@ Serial.println(diferenta[timezone0]);
 Serial.print("DST: ");
 Serial.println(DST);
 Serial.println("==============");
+Soare();  
 }
 timezone1 = timezone0;
 
@@ -630,6 +632,7 @@ EEPROM.write(adresa + 3, intensitate11);  // brightness
 EEPROM.commit();    //Store data to EEPROM 
 Serial.print("Write in EEPROM: day brightness = "); 
 Serial.println(intensitate11);
+Soare();
 }
 intensitate10 = intensitate11;
 
@@ -639,6 +642,7 @@ EEPROM.write(adresa + 4, intensitate21);  // brightness
 EEPROM.commit();    //Store data to EEPROM 
 Serial.print("Write in EEPROM: night brightness = "); 
 Serial.println(intensitate21);
+Soare();
 }
 intensitate20 = intensitate21;
 

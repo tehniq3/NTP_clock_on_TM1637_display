@@ -17,4 +17,6 @@ sketch for 12-hour format: https://github.com/tehniq3/NTP_clock_on_TM1637_displa
 ![TEMPERATURE](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Fv9qsf9ej4QL4KzLn6JQow6yUfIB88YizHvvbYRrvJS0YDVsZjXA9cdbejvbnszmQxoqCywcnBDwcVFOVdRXtlHL5mtlY8s_NXuTHb3lDlwMNmx-8LeRYNdLWbCDNo6kSn183flyjjj-deHW6klvNQbXuUYw0MXo8g6rhuocb1mgfFuEZqpaG8z3Jw/w200-h150/proiect4.jpg)
 ![HUMIDITY](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoAWxZ6996U_oO_kAyKkVLBHQVqC_XptE0l4SaT47MTESQuGDOKNowe7wSVvyIeWxytDZH5_M4MIuKOa8faGI9ByNAaMCl-FhzrBguHLhKbgKO0ZJ_r0Kq-bu8Um_0asNg_GJfgMkvK-AgG0JpDtt1SVxjLdAkheZkfNWiOj0Y2RgdJ2WBzrP6yQ0e5w/w200-h150/proiect3.jpg)
 
-Sketch for DHT22: ntp_clock_webcontrol_TM1637_2.ino
+Sketch for DHT22: https://github.com/tehniq3/NTP_clock_on_TM1637_display/blob/main/ntp_clock_webcontrol_TM1637_2.ino
+
+Updated sketch for control extra info: https://github.com/tehniq3/NTP_clock_on_TM1637_display/blob/main/ntp_clock_webcontrol_TM1637_2a.ino

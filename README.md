@@ -12,3 +12,7 @@ sketch for 12-hour format: https://github.com/tehniq3/NTP_clock_on_TM1637_displa
 
 ![webcontrol](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicMxwoEOVYKlz0EYNeGAlGqOOQVkLwDae1waAGi6SKVjXXTJjkYNwfDSMF32eMwvblrFkk-o7JQ71Vbg-PYpJ13j8xtwG8Dzhus75Za-ZfNx1DJqdpBQZWWvk0O8uP17K5Rb-tP8AMnLRIeV0FfiJJmQ17NN0IDl9SthRASY6JegL0rEv3O9jnkJ3msQ/w150-h200/ora_auto_0.jpg)
 
+![ntpCLOCK_dht](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc2jy-Cd5Vv3vkg0bVez9L7NJ7ob4vxBuRToA8dd24hkBHgIb_8vihazQqZ2eEGkQYaXHUZ69Hd-3PcwSIcFM_OPo2ICy1sGX1ZY_l26xuvTs-lQ1jKtM0-04_qy6z-q-RM4dFlgtIxyDyTaIt-mnARH1TijXGYg6HeDL0qrvQQens-0XWP90lIAKJUQ/s1139/TM1637_DHT_WemosD1_sch1.png)
+
+![TEMPERATURE](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Fv9qsf9ej4QL4KzLn6JQow6yUfIB88YizHvvbYRrvJS0YDVsZjXA9cdbejvbnszmQxoqCywcnBDwcVFOVdRXtlHL5mtlY8s_NXuTHb3lDlwMNmx-8LeRYNdLWbCDNo6kSn183flyjjj-deHW6klvNQbXuUYw0MXo8g6rhuocb1mgfFuEZqpaG8z3Jw/w200-h150/proiect4.jpg)
+![HUMIDITY](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoAWxZ6996U_oO_kAyKkVLBHQVqC_XptE0l4SaT47MTESQuGDOKNowe7wSVvyIeWxytDZH5_M4MIuKOa8faGI9ByNAaMCl-FhzrBguHLhKbgKO0ZJ_r0Kq-bu8Um_0asNg_GJfgMkvK-AgG0JpDtt1SVxjLdAkheZkfNWiOj0Y2RgdJ2WBzrP6yQ0e5w/w200-h150/proiect3.jpg)

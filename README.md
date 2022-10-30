@@ -1,6 +1,14 @@
 # NTP_clock_on_TM1637_display
 library: https://github.com/tehniq3/TM1637-display or // https://github.com/avishorp/TM1637
 
+article no.1: https://nicuflorica.blogspot.com/2022/10/ceas-ntp-pe-afisaj-cu-tm1637.html
+
+article no.2: https://nicuflorica.blogspot.com/2022/10/ceas-ntp-pe-afisaj-cu-tm1637-format-de.html
+
+article no.3: https://nicuflorica.blogspot.com/2022/10/ceas-ntp-pe-afisaj-led-cu-tm1637-reglaj.html
+
+article no.4:: https://nicuflorica.blogspot.com/2022/10/termometruhigrometru-cu-dht2211-si-ceas.html
+
 basic sketch (24-hour format): IoTClockCode1.ino using schematic from http://www.esp8266learning.com/tm1637-7-segment-display-example.php
 ![basic schematic](https://github.com/tehniq3/NTP_clock_on_TM1637_display/blob/main/wemos-and-TM1637_bb.jpg)
 

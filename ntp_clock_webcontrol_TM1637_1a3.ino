@@ -13,6 +13,7 @@
 // display state AP or IP in TM1637 display for easy know the IP of local control webpage (eg: 192.168.3.1)
 // v.1a2a4 - small updates for issue at date chamge after change TimeZone or DST
 // v.1a3 - solved issue with special TimeZone (-9., 2.75,etc)
+// v.1a3a - corrected changes from 23:59 to 0:00 (sometimes remains 20:00)and reading data every hour
 
 
 #include <EEPROM.h>
@@ -451,13 +452,11 @@ iaOra();
 tpcitire = millis();
 }
 
-if ((ora == 0) and (minut == 0))  // read day, mounth and year every hour
-{
-if (citire3 == 0)
+if (minut == 0) and (citire3 == 0))  // read day, mounth and year every hour
 {
 iaData();
 citire3 = 1;
-}
+display.clear();
 }
 if ((minut > 1) and (citire3 = 1))  // reseting variable for reading the data every hours
 {

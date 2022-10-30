@@ -15,6 +15,8 @@
 // v.1a3 - solved issue with special TimeZone (-9., 2.75,etc)
 // v.1a4 - added brightness control from webpage
 // v.1b - added automatic brightness due to sunrise/sunset using https://github.com/jpb10/SolarCalculator library
+// v.1b1 - corrected changes from 23:59 to 0:00 (sometimes remains 20:00)and reading data every hour
+
 
 #include <SolarCalculator.h> //  https://github.com/jpb10/SolarCalculator
 #include <EEPROM.h>
@@ -538,14 +540,12 @@ luminita();
 tpcitire4 = millis();
 }
 
-if ((ora == 0) and (minut == 0))  // read day, mounth and year every hour
-{
-if (citire3 == 0)
+if (minut == 0) and (citire3 == 0))  // read day, mounth and year every hour
 {
 iaData();
 Soare();
 citire3 = 1;
-}
+display.clear();
 }
 if ((minut > 1) and (citire3 = 1))  // reseting variable for reading the data every hours
 {

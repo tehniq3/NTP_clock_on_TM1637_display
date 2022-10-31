@@ -452,13 +452,13 @@ iaOra();
 tpcitire = millis();
 }
 
-if (minut == 0) and (citire3 == 0))  // read day, mounth and year every hour
+if ((minut == 0) and (citire3 == 0))  // read day, mounth and year every hour
 {
 iaData();
 citire3 = 1;
 display.clear();
 }
-if ((minut > 1) and (citire3 = 1))  // reseting variable for reading the data every hours
+if ((minut > 1) and (citire3 == 1))  // reseting variable for reading the data every hours
 {
   citire3 = 0;
 }

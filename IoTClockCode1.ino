@@ -1,5 +1,6 @@
 // video: https://youtu.be/ZWRT4mDb8O0
-// small changes by niq_ro (solved display issue on hour 0)
+// small changes by niq_ro (solved display issue on hour 0), now force clear display when 23:59 -> 0:00
+
 
 #include <NTPClient.h>
 #include <ESP8266WiFi.h>
@@ -19,6 +20,9 @@ const long utcOffsetInSeconds = 3*3600; //19802;
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
+
+int A,B;
+int C;
 
 void setup(){
   Serial.begin(115200);
@@ -67,5 +71,7 @@ void loop() {
     display.showNumberDecEx(A, 0b00000000 , true, 3, 1); 
   }
   } 
-  
-}
+ 
+if (C > A) display.clear();   // force clear display when 23:59 -> 00:00
+C = A;  
+} // end main loop

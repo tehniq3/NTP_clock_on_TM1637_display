@@ -1,5 +1,5 @@
 // video: https://youtu.be/ZWRT4mDb8O0
-// small changes by niq_ro : solved display issue on hour 0:00 -> force clear display when 23:59 -> 0:00
+// small changes by niq_ro : solved display issue on hour 0:00 -> force clear display when 12:59 -> 1:00
 // ver.1b: 12-hour format: https://en.wikipedia.org/wiki/12-hour_clock
 
 #include <NTPClient.h>
@@ -83,6 +83,6 @@ void loop() {
   }
   }
 
-if (C > A) display.clear();   // force clear display when 23:59 -> 00:00
+if (C > A) display.clear();   // force clear display when 12:59 -> 1:00
 C = A;
 } // end main loop

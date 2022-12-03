@@ -1,5 +1,5 @@
 // video: https://youtu.be/ZWRT4mDb8O0
-// small changes by niq_ro (solved display issue on hour 0)
+// small changes by niq_ro : solved display issue on hour 0:00 -> force clear display when 23:59 -> 0:00
 // ver.1b: 12-hour format: https://en.wikipedia.org/wiki/12-hour_clock
 
 #include <NTPClient.h>
@@ -17,7 +17,7 @@ const char *password = "internet2";
 
 const long utcOffsetInSeconds = 3*3600; //19802;  
 
-int A,B,H;
+int A,B,H,C;
 byte pm =0;
 
 // Define NTP Client to get time
@@ -82,5 +82,7 @@ void loop() {
     display.showNumberDecEx(A, 0b00010000 , false, 4, 0); 
   }
   }
-  
+
+if (C > A) display.clear();   // force clear display when 23:59 -> 00:00
+C = A;
 } // end main loop
